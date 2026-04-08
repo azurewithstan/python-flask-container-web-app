@@ -17,5 +17,5 @@ jobs:
         username: ${{ secrets.REGISTRY_USERNAME }}
         password: ${{ secrets.REGISTRY_PASSWORD }}
     - run: |
-        docker build . -t stanctrreg01.azurecr.io/stanapp01:1.0.0
-        docker push stanctrreg01.azurecr.io/stanapp01:1.0.0
+        docker build . -t stanctrreg01.azurecr.io/stanapp02:1.0.1
+        docker push stanctrreg01.azurecr.io/stanapp02:1.0.1
